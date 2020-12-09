@@ -1,0 +1,58 @@
+body{
+	background-color: rgb(150,140,131);
+	color: rgb(150,140,131);
+	font-family: 'Lato' , sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+h1{
+	font-family: optima, Helvetica;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
+	letter-spacing: 5px;
+}
+h2{
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight:bold;
+	text-decoration: underline;
+	font-style: italic;
+	font-size-adjust: 
+}
+
+h3, h4, h5, h6, h7 {
+	text-align: center;
+	letter-spacing: 5px;
+	text-decoration: underline;
+	font-size: 25px;
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(150,140,131);
+}
+
+
+/*Custom design with class*/
+@media(max-width: 760px){
+	.container{ 
+		width: 450px;
+		margin: 40px auto;
+	}
+}
+
+.img-circle {
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	width: 140px;
+	height: 180px;
+	color: white;
+	border-radius: 50%;
+}
+
+
+
+
